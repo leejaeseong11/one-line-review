@@ -1,21 +1,22 @@
 import { db } from '../db/firebase';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { collection, getDocs } from 'firebase/firestore/lite';
 
-async function getContents() {
-  const contents = collection(db, 'contents');
-  const contentsSnapshot = await getDocs(contents);
-  const contentsList = contentsSnapshot.docs.map((doc) => doc.data());
-
-  return contentsList;
-}
-
 function ReadContents() {
+  async function getContents() {
+    const contents = collection(db, 'contents');
+    const contentsSnapshot = await getDocs(contents);
+    const contentsList = contentsSnapshot.docs.map((doc) => doc.data());
+    // console.log(contentsList);
+    return contentsList;
+  }
+
+  const [review, setReview] = useState([]);
   useEffect(() => {
     console.log(getContents());
-  });
+  }, []);
 
-  return <div>firebase 확인해보기!</div>;
+  return <div>{review}</div>;
 }
 
 export default ReadContents;
