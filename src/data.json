@@ -1,17 +1,17 @@
 {
   "contents": [
     {
-      "hashtag": ["책", "", ""],
+      "hashtag": ["책", "추리", "미스터리"],
       "name": "돌이킬 수 없는 약속",
-      "recommendation": "",
-      "review": "",
+      "recommendation": "추천",
+      "review": "광고보고 사게되었는데 반전이 꽤 재밌었다.",
       "way": "온라인 중고 책 구매"
     },
     {
-      "hashtag": ["책", "", ""],
+      "hashtag": ["책", "일본", "추리"],
       "name": "벚꽃, 다시 벚꽃",
-      "recommendation": "",
-      "review": "",
+      "recommendation": "비추천",
+      "review": "표지와 제목에 끌려서 샀는데",
       "way": "오프라인 새 책 구매"
     },
     {
@@ -125,6 +125,20 @@
       "recommendation": "",
       "review": "여러 일화와 함께 교훈을 전달하려고 애썼으나 공감이 잘 안되었다.",
       "way": "군대 도서관 열람"
+    },
+    {
+      "hashtag": ["책", "", ""],
+      "name": "그로스 해킹",
+      "recommendation": "",
+      "review": "",
+      "way": "온라인 새 책 구매"
+    },
+    {
+      "hashtag": ["책", "", ""],
+      "name": "마케터의 일",
+      "recommendation": "",
+      "review": "",
+      "way": "선물 받음"
     },
     {
       "hashtag": ["애니메이션", "", ""],
